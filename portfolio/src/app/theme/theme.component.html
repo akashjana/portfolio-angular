@@ -1,0 +1,7 @@
+<button
+class="btn"
+  (click)="themeChange()"
+  [ngClass]="{ light: toggle, dark: !toggle }"
+>
+  {{ status }}
+</button>
